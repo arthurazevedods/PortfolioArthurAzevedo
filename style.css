@@ -28,6 +28,15 @@ div {
 
 }
 
+.nav-element {
+    color: var(--color4);
+}
+
+.nav-element:hover {
+    color: var(--color2);
+    font-weight: 700;
+}
+
 .navbar-toggler {
     height: 50px;
     border-radius: 5px;
@@ -282,6 +291,7 @@ body {
     transform: translateY(35px);
 }
 .fa-chevron-up:hover{
+    transition: all 0.9 ease;
     transform: translateY(25px);
 }
 footer {
