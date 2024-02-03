@@ -63,17 +63,22 @@
                     <i class="fa-brands fa-github fa-2x home_social_icon"></i>
                 </a>
             </div>
+            <div class="home_social m-1">
+                <a href="https://twitter.com/arthurazevds" rel="noreferrer" target="_blank">
+                    <i class="fa-brands fa-twitter fa-2x home_social_icon"></i>
+                </a>
+            </div>
 
         </div>
     </section>
-    <section id="about" class="about d-flex flex-column justify-content-around">
-        <div class="container aboutme d-flex flex-column justify-content-center align-items-center">
-            <h3 class="fs-1 fw-bold">SOBRE MIM</h3>
+    <section id="about" class="about">
+        <div class="container aboutme pt-3 d-flex flex-column justify-content-center align-items-center">
+            <h3 class="div-title fs-1  fw-bold">SOBRE MIM</h3>
             <span class="fs-6 ">Aqui você encontrará mais informações sobre mim, o que faço e minhas habilidades,
                 principalmente em termos de programação e tecnologia.</span>
         </div>
-        <div class="container div-divider">
-            <h3 class="div-title text-uppercase">Skills</h3>
+        <div class="container">
+            <h3 class="div-title text-uppercase d-flex justify-content-center">Skills</h3>
             <div class="row pt-3">
                 <div class="col-sm-12 col-md-4 col-lg-3">
                     <div class="box_skill d-flex flex-row justify-content-between p-4 my-2">
@@ -121,11 +126,10 @@
                     <div class="box_skill d-flex flex-row justify-content-between p-4 my-2">
                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor"
                             height="18" width="18">
-                            <title>Power BI</title>
-
                             <path
                                 d="M21 1v22a1 1 0 0 1-1 1h-3.5V7c0-.827-.673-1.5-1.5-1.5h-2V1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1zm-6 5H9a1 1 0 0 0-1 1v4.5h2c.827 0 1.5.673 1.5 1.5v11H18V7a1 1 0 0 0-1-1zm-5 6H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h7V13a1 1 0 0 0-1-1z"
-                                id="mainIconPathAttribute" fill="#ffffff"></path>
+                                id="mainIconPathAttribute" fill="#ffffff">
+                            </path>
                         </svg>
                         <span>Power BI</span>
                     </div>
@@ -133,13 +137,15 @@
             </div>
         </div>
 
-        <div class="container div-divider mt-4">
-            <h3 class="div-title text-uppercase">Experiência</h3>
+        <div class="container my-4">
+            <h3 class="div-title text-uppercase d-flex justify-content-center">Experiência</h3>
             
         </div>
 
     </section>
-    <section id="projects"></section>
+    <section id="projects">
+        <h3 class="div-title text-uppercase d-flex justify-content-center">Projetos</h3>
+    </section>
 
     <section id="contacts" class="d-flex justify-content-center">
         <div class="form-container">
@@ -159,10 +165,10 @@
         </div>
     </section>
     <div class="d-flex justify-content-center">
-		<a class="text-decoration-none" href="#home">
-            <i class="fa-solid fa-chevron-up d-flex justify-content-center align-items-center"></i>    
+        <a class="text-decoration-none" href="#home">
+            <i class="fa-solid fa-chevron-up d-flex justify-content-center align-items-center"></i>
         </a>
-	</div>
+    </div>
     <footer class="text-center">
         <!-- Grid container -->
         <div class="container pt-4">
@@ -184,8 +190,13 @@
                     role="button">
                     <i class="fab fa-github footer-element"></i>
                 </a>
+                <a class="btn btn-link btn-floating btn-lg text-body m-1" href="https://twitter.com/arthurazevds"
+                    role="button">
+                    <i class="fab fa-twitter footer-element"></i>
+                </a>
                 <!--Skoob-->
-                <a class="btn btn-link btn-floating btn-lg text-body m-1" href="https://www.skoob.com.br/usuario/6852732" role="button">
+                <a class="btn btn-link btn-floating btn-lg text-body m-1"
+                    href="https://www.skoob.com.br/usuario/6852732" role="button">
                     <i class="fa-solid fa-book footer-element"></i>
                 </a>
             </section>
