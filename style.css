@@ -133,6 +133,28 @@ body {
     color: var(--color4);
 }
 
+.div-divider {
+    height: 1px;
+    border-bottom: var(--color4) solid 1px;
+    margin-bottom: 3.2rem;
+    position: relative;
+}
+
+.div-title {
+    background-color: var(--color5);
+    position: absolute;
+    top: -0.8rem;
+    left: 50%;
+    margin-left: -160px;
+    width: 320px;
+    text-align: center;
+    display: block;
+    color: var(--color4);
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+}
+
 .box_skill {
     width: 200px;
     height: 50px;
@@ -150,10 +172,6 @@ body {
 .box_skill svg {
     color: var(--color5);
 }
-
-
-
-
 
 
 .form-container {
@@ -252,4 +270,29 @@ body {
 .form-container .form .button-container .reset-button-container .reset-button:hover {
     background: var(--color4);
     color: var(--color1);
+}
+
+.fa-chevron-up{
+    border-radius:  80px 80px 0 0 ;
+    background-color: var(--color1);
+    color: var(--color5);
+    font-size: 50px;
+    width: 118px;
+    height: 90px;
+    transform: translateY(35px);
+}
+.fa-chevron-up:hover{
+    transform: translateY(25px);
+}
+footer {
+    background-color: var(--color1);
+
+}
+
+.footer-element {
+    color: var(--color5);
+}
+
+.footer-element:hover {
+    color: var(--color3);
 }
