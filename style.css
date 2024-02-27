@@ -140,25 +140,6 @@ body {
     transform: translateX(5px);
 }
 
-.content{
-    border: 1px solid var(--color2);
-    border-radius: 12px;
-    background-color: transparent;
-    color: var(--color1);
-}
-
-.border-left-right{
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-}
-
-.icons-about-section{
-    background-color: var(--color6);
-    color: var(--color5);
-    border: 1px solid var(--color6);
-    margin: 0 auto;
-}
-
 .about {
     background-position: center;
     min-height: 20rem;
@@ -169,6 +150,34 @@ body {
 .aboutme span {
     color: var(--color4);
 }
+
+.content{
+    border: 1px solid var(--color5);
+    border-radius: 12px;
+    background-color: var(--color5);
+    color: var(--color1);
+    box-shadow: 2px 2px 10px -2px var(--color4);
+}
+@media screen and (min-width:765px) {
+    .border-left-right{
+        border-left: 1px solid grey;
+        border-right: 1px solid grey;
+    } 
+}
+
+
+.icons-about-section{
+    color: var(--color6);
+    margin: 0 auto;
+}
+
+@media screen and (max-width:765px){
+    .col-borderbt{
+        border-bottom: 2px solid var(--color4);
+    }
+}
+
+
 
 .title-skills{
     color: var(--color2);
