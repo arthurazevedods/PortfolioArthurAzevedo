@@ -229,8 +229,12 @@ body {
 }
 
 .card-project{
-    height: 50vh;
+    height: auto;
     max-height: 100vh;
+    background-color: var(--color5);
+    padding: 15px;
+    border: 1px solid var(--color5);
+    border-radius: 15px;
 }
 .card {
     background-color: var(--color2);
@@ -249,13 +253,16 @@ body {
     box-shadow: 0px 0px 10px 2px #5a5a5a;
 }
 
+.card_img{
+    margin-right: 0;
+}
 
 .card_img img{
     border-radius: 20px;
     width: 40vw;
-    height: 50vh;
+    height: auto;
     overflow: hidden;
-     
+    object-fit: scale-down;
 }
 
 .card__descr-wrapper {
