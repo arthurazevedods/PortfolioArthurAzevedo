@@ -9,7 +9,7 @@ links.forEach(function (link) {
             elemento.scrollIntoView({ behavior: 'smooth', block: 'start' });
             setTimeout(function () {
                 window.scrollBy(0, -50);
-            }, 500);
+            }, 1000);
         }
     });
 });
