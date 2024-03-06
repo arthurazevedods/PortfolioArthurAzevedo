@@ -142,8 +142,7 @@ body {
 
 .about {
     background-position: center;
-    min-height: 20rem;
-    max-height: 120rem;
+    height: 100vh;
     border-radius: 15px;
 }
 
